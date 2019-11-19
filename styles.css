@@ -4,7 +4,7 @@ body{
     background-attachment: fixed;
     background-size: 100%;
     min-height:100%;    
-    padding-top: 30px;
+    padding-top: 25px;
     padding-bottom: 20px;
     margin: 0;
     font-family: 'Alata', sans-serif;
@@ -13,8 +13,11 @@ body{
 main{
     margin-left: 20%;
     margin-right: 20%;
-    background: whitesmoke;
+    background: #69707a;
     padding: 20px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 5px;
 }
 
 #nav-list {
@@ -37,7 +40,7 @@ main{
  }
 
 .nav-line a:hover {
-    background-color: #111;
+    background-color: #404752;
 }
 
 h1{
@@ -47,13 +50,16 @@ h1{
     color: gainsboro;
     padding: 10px;
     margin: 0;
+    border-style: outset;
+    border-width: 10px;
 }
+
 img{
    width: 100%; 
    object-fit: contain;
 }
 article{
-    padding-top: 40px;
+    padding-top: 30px;
 }
 a {
     text-decoration: none;
@@ -75,6 +81,8 @@ button{
     margin-right: 30%;
     margin-bottom: 20px;
     padding: 20px;
+    border-style: outset;
+    border-width: 10px;
 }
 
 ul{
