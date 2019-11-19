@@ -3,23 +3,28 @@
 <html>
    <head>
       <title>Megan, the Francophile</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
    </head>
 
    <body>
         <nav>
-            <a href=#intro>Introduction</a> |
-            <a href=#paris>Paris</a> |
-            <a href=#normandy>Normandy</a> |
-            <a href=#st-malo>Saint-Malo</a> |
-            <a href=#mont-st-michel>Mont St. Michel</a> |
-            <a href=#nice>Nice</a> |
-            <a href=#st-paul-de-vence>St. Paul de Vence</a> |
-            <a href=#monaco>Monaco</a>
+            <ul id="nav-list">
+                <li class="nav-line"><a href=#intro>Introduction</a></li> 
+                <li class="nav-line"><a href=#paris>Paris</a></li> 
+                <li class="nav-line"><a href=#normandy>Normandy</a></li> 
+                <li class="nav-line"><a href=#st-malo>Saint-Malo</a></li> 
+                <li class="nav-line"><a href=#mont-st-michel>Mont St. Michel</a></li>
+                <li class="nav-line"><a href=#nice>Nice</a></li> 
+                <li class="nav-line"><a href=#st-paul-de-vence>St. Paul de Vence</a></li> 
+                <li class="nav-line"><a href=#monaco>Monaco</a></li>
+            </ul>
         </nav>
         <main id="top">
             <article>
                 <header>
                     <h1>Me, the Francophile</h1>
+                    <div class="article">
                     <h2 id="intro">Introduction</h2>
                     <p>Hello. My name is Megan Cullins, and I am a Francophile. My love of all things French started
                             around the 8th grade. One of my friends had taken a French language course the year before and
@@ -28,6 +33,7 @@
                             school when I had the opportunity to travel myself. Here are a few highlights of my travels, 
                             and why I am so taken with France.
                     </p>
+                    </div>
                 </header>
                 <article id="paris">
                     <h2>Paris</h2>
@@ -37,6 +43,16 @@
                         for a Cafe au Lait at one of the many quaint Cafes all across the city. This is the place I went for 
                         my honeymoon and will always hold a special place in my heart. 
                     </p>
+                    <div id="fav-places">
+                        <h3>My Top 5 Favorite Places in Paris</h3>
+                        <ul>
+                            <li>Sacre Couer Cathedral</li>
+                            <li>Eiffel Tower</li>
+                            <li>Le Centre Pompidou</li>
+                            <li>Dali Paris</li>
+                            <li>The Louvre</li>
+                        </ul>
+                    </div>
                     <img src='images/paris.jpg'>
                 </article>
                 <article id="normandy">
@@ -105,10 +121,12 @@
                     <img src='images/monaco.jpg'>
                 </article>
                 <footer>
-                    <a href="#top">Go to top</a>
+                    <div  id="to-top-link">
+                        <a href="#top">Go to top</a>
+                    </div>
                     <br>
                     <button type="button"><a href="mailto:mlcullins@gmail.com">Contact Me</a></button>
-                    <p>&#169;2019 Megan Cullins</p>
+                    <h4>&#169;2019 Megan Cullins</h4>
                 </footer>
             </article>
         </main>
